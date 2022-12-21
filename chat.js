@@ -19,7 +19,7 @@ async function sendMessage() {
 
   // Get a response from ChatGPT
   const chatgpt = new ChatGPT({
-    apiKey: "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",
+    apiKey: "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",
   });
   const response = await chatgpt.send(message);
 
